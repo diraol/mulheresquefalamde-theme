@@ -2664,7 +2664,7 @@ select {
 	font-weight: 400;
 	margin: 0 auto;
 	max-width: 750px;
-	padding: 69px 0 72px;
+	padding: 20px 0 20px;
 	text-align: center;
 	width: 100%;
 }
@@ -3267,3 +3267,25 @@ select {
   left: -14px;
 }
 
+#main .main-navigation {
+  padding-bottom: 10px;
+}
+
+body #main .nav-menu .menu-item > a {
+  border-radius: 25px;
+  background-color: #5CC1A9;
+  color: #333 !important;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+body #main .nav-menu .menu-item:hover > a {
+  background-color: #4D8D7E;
+  border: 1px solid transparent;
+}
+
+body #main #gk-social {
+  display: none;
+}

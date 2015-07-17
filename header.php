@@ -31,7 +31,7 @@
 					<?php endif; ?>
 				<?php endif; ?>
 			</a>
-			
+
 			<?php if(get_theme_mod('portfolio_show_topbar_search', '') != '') : ?>
 			<form role="search" method="get" class="search-topbar" action="<?php echo home_url( '/' ); ?>">
 				<label>
@@ -40,14 +40,17 @@
 				</label>
 			</form>
 			<?php endif; ?>
-			
+
 			<?php if(get_theme_mod('portfolio_show_topbar_social', '') != '') : ?>
 			<?php wp_nav_menu(array('theme_location' => 'footer', 'menu_class' => 'social-menu-topbar')); ?>
 			<?php endif; ?>
 		</header><!-- #masthead -->
-				
+
 		<div id="main" class="site-main">
 			<div id="page" class="hfeed site">
+				<nav id="site-navigation" class="main-navigation" role="navigation">
+					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+				</nav><!-- #site-navigation -->
 			<div class="widget-area">
 				<?php dynamic_sidebar('header'); ?>
 			</div>
