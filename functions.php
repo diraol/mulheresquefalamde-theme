@@ -248,6 +248,16 @@ if(!function_exists('portfolio_widgets_init')) {
 			'before_title'  => '<h3 class="widget-title">',
 			'after_title'   => '</h3>',
 		));
+    register_sidebar(array(
+			'name'          => __( 'Header widget area', 'portfolio' ),
+			'id'            => 'header',
+			'description'   => __( 'Appears at the bottom of the website.', 'portfolio' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		));
+
 	}
 }
 

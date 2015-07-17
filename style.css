@@ -1,6 +1,6 @@
 /*
-Theme Name: GK Portfolio
-Theme URI: https://www.gavick.com/wordpress-themes/portfolio,174.html
+Theme Name: Mulheres que falam de
+Theme URI: https://github.com/diraol/mulheresquefalamde-theme
 Description: If you’re a photographer, designer or creative blogger, you know how much of an impact strong visuals can have. It’s not enough to just write about your skills, or talk about what works in design; it has to be seen to be understood. With the clean, elegant design offered by this free Portfolio WordPress theme that puts all the emphasis on your creative work, you can craft an alluring, attractive and relaxed website that echoes the qualities that you put into your writing and images. Reveal and hover animations provide a dynamic backdrop without intrusion, and the dialed-back layout keeps attention focused on your content. Provide your blog or portfolio site with the perfect foundation with Porfolio...
 License: GNU GPL v.2.0
 License URI: LICENSE.txt
@@ -3226,3 +3226,44 @@ select {
 		display: none;
 	}
 }
+
+/* DIRAOL CSS */
+.site-main #page {
+  padding-top: 40px;
+}
+
+.widget_tag_cloud.widget {
+  padding-top: 5px;
+}
+
+.widget_tag_cloud .widget-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.widget_tag_cloud .tagcloud {
+  text-align: center;
+}
+
+.widget_tag_cloud .tagcloud a {
+  color: #000;
+}
+
+#main #content .tags-links {
+  color: height: 69px;
+}
+
+#main #content .tags-links > li {
+  line-height: 23px;
+}
+
+#main #content .article-helper .tags-links {
+  height: 69px;
+  padding: 0 5px 0 35px;
+}
+
+#main #content .article-helper .tags-links:before {
+  left: -14px;
+}
+

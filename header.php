@@ -48,7 +48,6 @@
 				
 		<div id="main" class="site-main">
 			<div id="page" class="hfeed site">
-		
-				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-				</nav><!-- #site-navigation -->
+			<div class="widget-area">
+				<?php dynamic_sidebar('header'); ?>
+			</div>
